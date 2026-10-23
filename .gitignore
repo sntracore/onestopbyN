@@ -1,0 +1,9 @@
+node_modules/
+dist/
+qa/
+.openai/local/
+*.log
+reference/
+.openai/
+.vercel/
+.DS_Store

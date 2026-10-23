@@ -1,0 +1,25 @@
+{
+  "name": "onestopbyn-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node scripts/verify.mjs"
+  },
+  "dependencies": {
+    "motion": "14.6.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.1",
+    "prettier": "3.8.1",
+    "vite": "8.3.5"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
